@@ -4,12 +4,7 @@
  */
 (function(root, factory) {
     'use strict';
-    if (typeof define === 'function') {
-        // AMD & CMD
-        define('broadCastMsg', factory);
-    } else {
-        factory();
-    }
+    typeof define === 'function'? define('broadCastMsg', factory) : factory();
 }(this, function() {
     'use strict';
     return {
