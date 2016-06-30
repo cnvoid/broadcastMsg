@@ -22,5 +22,5 @@ msg.emitter('MSG_MARK', data);
 zhuttymore@126.com
 
 #Support me
-![](http://images2015.cnblogs.com/blog/677630/201509/677630-20150930131223058-2044768959.jpg '支付宝')  
+![](http://images2015.cnblogs.com/blog/677630/201509/677630-20150930131223058-2044768959.jpg 'Ali PAy')  
 
