@@ -1,5 +1,5 @@
 # broadcastMsg
-在javascipt实现观察者模式 (Implement the Observer Pattern in javascript)
+Implement the Observer Pattern in javascript
 
 How to use:
 ```javascript
