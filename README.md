@@ -4,22 +4,24 @@ Implement the Observer Pattern in javascript
 How to use:
 ```javascript
 var msg = require('broadcastMsg');
+//using in vue
+Vue.prototype.$msg = msg
 
 //Receive a broadcast message
-
+import msg from '@/lib/msg'
 msg.receive('MSG_MARK',function(data){
                .....
 });
 
 //Emitter a broadcast message
 
-msg.emitter('MSG_MARK', data);
+msg.emit('MSG_MARK', data);
 ```
 
 #Contact me: 
 734271284@qq.com 
 
-zhuttymore@126.com
+cnvoid@126.com
 
 
 
