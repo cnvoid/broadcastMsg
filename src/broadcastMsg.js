@@ -14,7 +14,7 @@
          * @param msg 消息内容
          * @param data 推送数据
          */
-        emitter: function (msg, data) {
+        emit: function (msg, data) {
             if (!msg) {
                 return false;
             }
