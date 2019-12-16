@@ -1,10 +1,12 @@
 /**
  * Created by stevenzhu on 2016/5/3/003, Guangzhou, China
- * MailTo:zhuttymore@126.com
+ * MailTo:cnvoid@126.com
  */
-(function(root, factory) {
+export default (function(root, factory) {
     'use strict';
-    typeof define === 'function'? define('broadCastMsg', factory) : factory();
+    var define = window.define
+    return  typeof define === 'function'? define('broadCastMsg', factory) : factory();
+
 }(this, function() {
     'use strict';
     return {
@@ -41,3 +43,4 @@
         }
     };
 }));
+
